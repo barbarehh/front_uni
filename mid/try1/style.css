@@ -1,0 +1,150 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 96px;
+    margin: 40px 0;
+    background-color: #ecebeb;
+}
+
+body {
+    background-color: #ecebeb;
+}
+
+.home {
+    display: flex;
+    width: 830px;
+    height: 96px;
+    background-color: #999999;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.home ul {
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.home ul li {
+    cursor: pointer;
+    padding: 10px 0;
+    position: relative;
+}
+
+.home ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ecebeb;
+    transition: width 0.3s ease;
+}
+
+.home ul li:hover::after {
+    width: 100%;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin-left: 55px;
+
+}
+
+.header-line {
+    width: 473px;
+    height: 1px;
+    margin-left: 167px;
+    background-color: #726b6b;
+    opacity: 0.25;
+}
+
+main {
+    text-align: left;
+    flex-direction: column;
+    padding: 20px;
+    margin: 76px;
+
+}
+
+h2 {
+    margin-left: 166.5px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 252px;
+    margin-bottom: 120px;
+    margin-top: 64px;
+
+}
+
+section img {
+    width: 445px;
+    height: 445px;
+}
+
+.box {
+    width: 445px;
+    text-align: left;
+}
+
+.box p:first-of-type {
+    font-size: 18px;
+}
+
+.box h3 {
+    font-size: 100px;
+    margin: 37px 0;
+}
+
+.box p {
+    font-size: 18px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #726b6b;
+    margin: 54px 0;
+    opacity: 0.75;
+
+}
+
+.two-texts {
+    display: flex;
+    align-items: flex-end;
+    gap: 79px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.two-texts p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .home {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .box {
+        text-align: center;
+    }
+}
