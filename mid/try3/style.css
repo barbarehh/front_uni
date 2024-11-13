@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: Roboto;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 118px;
+    width: 1440px;
+    height: 742px;
+    gap: 159px;
+    margin-bottom: 40px;
+}
+
+.first-div {
+    width: 540px;
+    height: 204px;
+    align-items: flex-start;
+    margin-top: 128px;
+    margin-left: 106px;
+}
+
+.photo {
+    width: 540px;
+    height: 524.31px;
+    margin-top: 33px;
+}
+
+.second-div {
+    display: flex;
+    margin-top: 39px;
+    flex-direction: row;
+    gap: 18px;
+    margin-left: 12px;
+
+}
+
+.second-div h2 {
+    margin-top: 14px;
+    font-size: 16px;
+
+}
+
+.second-div img {
+    width: 36px;
+    height: 36px;
+
+}
+
+
+.second-div p {
+    margin-top: 6px;
+    font-size: 12px;
+
+}
